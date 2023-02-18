@@ -2,6 +2,7 @@
   "name": "jettison-system",
   "license": "GPL-3.0",
   "packageManager": "npm@9.5.0",
+  "type": "module",
   "author": "MasuqaT <occar@hotmail.co.jp>",
   "private": true,
   "workspaces": [

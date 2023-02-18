@@ -6,7 +6,7 @@ type TokensConfig = {
   [Key: string | number]: string | number | TokensConfig;
 };
 
-export type RenderedTree = { [Key: string]: RenderedTree | string };
+export type RenderedTree = { [Key: string]: RenderedTree } | string;
 
 export type JettisonRc = {
   plugin: {
