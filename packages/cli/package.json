@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/occar421/jettison/issues"
   },
-  "homepage": "https://github.com/occar421/jettison#readme"
+  "homepage": "https://github.com/occar421/jettison#readme",
+  "dependencies": {
+    "@jettison-system/config": "^0.0.0",
+    "@jettison-system/tokens": "^0.0.0"
+  }
 }
