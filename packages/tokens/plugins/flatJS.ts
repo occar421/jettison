@@ -48,7 +48,7 @@ if (import.meta.vitest) {
     expect(result).toStrictEqual({});
   });
 
-  it("one CSS variable when 1 config", async () => {
+  it("one const when 1 config", async () => {
     const result = await defaultRender({ tokens: { main: "#000000" } });
 
     expect(result).toStrictEqual({
@@ -56,7 +56,7 @@ if (import.meta.vitest) {
     });
   });
 
-  it("two CSS variable when 2 config", async () => {
+  it("two const when 2 config", async () => {
     const result = await defaultRender({
       tokens: { main: "#000000", opacity: 0.8 },
     });
@@ -66,7 +66,7 @@ if (import.meta.vitest) {
     });
   });
 
-  it("kebab-case named CSS variable when nested config", async () => {
+  it("camelCase named const when nested config", async () => {
     const result = await defaultRender({
       tokens: { main: { lightest: "#000000" } },
     });
