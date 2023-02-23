@@ -1,0 +1,24 @@
+{
+  "name": "@jettison-system/config-plugin-tailwindcss",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "devDependencies": {},
+  "scripts": {
+    "build": "rollup --config",
+    "build:watch": "rollup --config --watch",
+    "lint:type": "tsc --noEmit --project .",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "Design System",
+    "Config",
+    "Plugin",
+    "Tailwind"
+  ],
+  "author": "MasuqaT (https://masuqat.net/)",
+  "license": "GPL-3.0"
+}

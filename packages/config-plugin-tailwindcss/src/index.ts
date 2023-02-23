@@ -1,4 +1,4 @@
-import { Config, JettisonRc } from "../index.js";
+import { Config, JettisonRc } from "@jettison-system/config";
 
 // should be new module due to dependency on TailwindCSS
 export const collector: (pluginConfig: {
