@@ -1,4 +1,5 @@
 import ts from "rollup-plugin-ts";
+import replace from "@rollup/plugin-replace";
 
 export default {
   input: "src/index.ts",
@@ -6,5 +7,13 @@ export default {
     file: "dist/index.js",
     format: "esm",
   },
-  plugins: [ts()],
+  plugins: [
+    ts(),
+    replace({
+      preventAssignment: true,
+      values: {
+        "import.meta.vitest": "undefined",
+      },
+    }),
+  ],
 };
