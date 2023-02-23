@@ -11,15 +11,18 @@
     "packages/config"
   ],
   "scripts": {
-    "clean": "npm run clean --ws",
-    "test": "npm run test --ws",
-    "build": "npm run build --ws"
+    "build": "turbo build",
+    "build:watch": "turbo build:watch",
+    "lint:type": "turbo lint:type",
+    "test": "turbo test",
+    "test:watch": "turbo test:watch"
   },
   "devDependencies": {
     "prettier": "^2.8.4",
     "rimraf": "^4.1.2",
     "rollup": "^3.17.2",
     "rollup-plugin-ts": "^3.2.0",
+    "turbo": "^1.8.2",
     "typescript": "^4.9.5",
     "vitest": "^0.28.5"
   }

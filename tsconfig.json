@@ -5,6 +5,8 @@
     "module": "ESNext",
     "moduleResolution": "NodeNext",
     "types": ["vitest/importMeta"],
-    "declaration": true
+    "declaration": true,
+    "skipLibCheck": true,
+    "strict": true
   }
 }

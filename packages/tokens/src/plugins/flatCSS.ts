@@ -1,4 +1,4 @@
-import { Config, JettisonRc } from "packages/config/src/index.js";
+import { Config, JettisonRc } from "@jettison-system/config";
 
 export const render: (pluginConfig: {
   filePath: string;

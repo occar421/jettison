@@ -6,9 +6,11 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "clean": "rimraf dist",
-    "test": "vitest",
-    "build": "rollup --config"
+    "build": "rollup --config",
+    "build:watch": "rollup --config --watch",
+    "lint:type": "tsc --noEmit --project .",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "repository": {
     "type": "git",
