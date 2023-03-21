@@ -5,7 +5,6 @@
   "type": "module",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "devDependencies": {},
   "scripts": {
     "build": "rollup --config",
     "build:watch": "rollup --config --watch",
@@ -20,5 +19,8 @@
     "Tailwind"
   ],
   "author": "MasuqaT (https://masuqat.net/)",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "windicss": "^3.5.6"
+  }
 }
